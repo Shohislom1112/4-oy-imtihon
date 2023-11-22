@@ -31,7 +31,9 @@ body {
 .dark header nav .logo svg {
   fill: #fff;
 }
-
+.dark main .center_second .cards .card_second {
+  background-color: #483636;
+}
 .dark footer {
   background-color: #483636;
 }
@@ -699,6 +701,7 @@ main {
         }
         background: #f5f5f2;
         .bir {
+          padding: 5px;
           border: 15px;
           border-radius: 5px;
           background-color: white;
