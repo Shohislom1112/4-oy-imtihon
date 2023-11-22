@@ -217,7 +217,6 @@ main .center {
   padding: 102px 0 142px;
   flex-wrap: wrap;
   background: #999;
-  max-width: 1440px;
 }
 main .center .left .text {
   padding-left: 35px;
@@ -278,6 +277,9 @@ main .center .left .text .input button {
 }
 main .center .left .burchak2 {
   padding-left: 355px;
+}
+main .center .right .immmg {
+  max-width: 100%;
 }
 main .center_first .cards .card_first {
   display: flex;
@@ -441,6 +443,12 @@ main .center_second .cards .card_first .cardss .bir .b .s p {
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
+main .center_second .cards .card_first .cardss .bir .i {
+  max-width: 100%;
+}
+main .center_second .cards .card_first .cardss .bir .i img {
+  max-width: 100%;
+}
 main .center_second .cards .card_first .cardss .bir .i img:hover {
   background-color: #063255;
   border-radius: 5px;
@@ -516,6 +524,64 @@ main .center_second .cards .card_first .cardss .ikki .i img:hover {
   background-color: #063255;
   border-radius: 5px;
 }
+main .center_second .cards .card_second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 25px;
+  background: #f5f5f2;
+}
+main .center_second .cards .card_second img {
+  max-width: 100%;
+}
+main .center_second .cards .card_second img:hover {
+  background-color: #063255;
+  border-radius: 5px;
+}
+main .center_second .cards .card_second .bir {
+  border: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+main .center_second .cards .card_second .bir .r {
+  max-width: 100%;
+}
+main .center_second .cards .card_second .bir .p1 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px; /* 140% */
+}
+main .center_second .cards .card_second .bir .p2 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+main .center_second .cards .card_second .bir .p3 {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+main .center_second .cards .card_second .bir .p4 {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+main .center_second .cards .card_second .bir:hover {
+  box-shadow: 0px 0px 10px 2px #73c6bf;
+}
+
 footer .footer-content {
   padding: 64px;
   display: flex;
@@ -691,5 +757,11 @@ footer .footer-content .footer_5 h5 {
   header nav .nav_items .nav-items {
     align-items: center;
     width: 100vw;
+  }
+  main {
+    display: block;
+  }
+  main .center {
+    background-color: white;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -246,7 +246,7 @@ main {
 
     flex-wrap: wrap;
     background: #999;
-    max-width: 1440px;
+    // max-width: 1440px;
     // max-height: 786px;
     // max-height: 795px;
     .left {
@@ -321,6 +321,7 @@ main {
     }
     .right {
       .immmg {
+        max-width: 100%;
       }
     }
   }
@@ -511,7 +512,9 @@ main {
               }
             }
             .i {
+              max-width: 100%;
               img {
+                max-width: 100%;
                 &:hover {
                   background-color: #063255;
                   border-radius: 5px;
@@ -676,6 +679,68 @@ main {
         }
       }
       .card_second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 25px;
+
+        // align-items: center;
+        // justify-content: space-around;
+        // padding: 20px;
+        // border-radius: 10px;
+
+        // background: #f5f5f2;
+        img {
+          max-width: 100%;
+          &:hover {
+            background-color: #063255;
+            border-radius: 5px;
+          }
+        }
+        background: #f5f5f2;
+        .bir {
+          border: 15px;
+          border-radius: 5px;
+          background-color: white;
+          .r {
+            max-width: 100%;
+          }
+          .p1 {
+            color: #2a2c1f;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 33.6px; /* 140% */
+          }
+          .p2 {
+            color: #2a2c1f;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 27px; /* 150% */
+          }
+          .p3 {
+            color: #65665c;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+          .p4 {
+            color: #65665c;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+          &:hover {
+            box-shadow: 0px 0px 10px 2px #73c6bf;
+          }
+        }
       }
     }
   }
@@ -898,6 +963,12 @@ footer {
           width: 100vw;
         }
       }
+    }
+  }
+  main {
+    display: block;
+    .center {
+      background-color: white;
     }
   }
 }
